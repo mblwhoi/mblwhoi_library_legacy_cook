@@ -1,0 +1,269 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1.22em;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+a img, :link img, :visited img {
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+}
+
+
+body {
+	color: #017C84;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	text-align: center;
+	background-color: #017C84;
+}
+
+.container {
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container, #tagline, #screens, .step {
+	display: inline-block;
+}
+
+.container, #tagline, #screens, .step {
+	display: block;
+}
+
+.container:after, #tagline:after, #screens:after, .step:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+#header {
+	color: #fff;
+	background: #3C78AA;
+	min-width: 960px;
+	min-height: 105px;
+	height: auto !important;
+	height: 105px;
+}
+
+#logo {
+	
+	height: 65px;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+}
+
+
+#logo_footer_right {
+	height: 119px;
+	margin-top: 31px;
+	padding-bottom: 0px;
+	float: right;
+}
+
+#logo a {
+	width: 464px;
+	height: 0px;
+	padding-top: 65px;
+	display: block;
+	overflow: hidden;
+}
+
+
+
+
+#credits {
+	background: #FFFFCC;
+	color: #017C84;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 15px 15px 15px 15px;
+	border-top: 1px solid #017C84;
+	border-bottom: 1px solid #017C84;
+}
+
+#credits a {
+	color: #017C84;
+	text-decoration: underline;
+}
+
+
+#content {
+	padding-top: 10px;
+	background: white;
+	min-width: 960px;
+}
+
+#content .col-left {
+	width: 610px;
+	float: left;
+}
+
+#content .col-left h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#content .col-right {
+	width: 300px;
+	float: right;
+}
+
+
+#img400 {
+	padding: 3px; 
+	float: left; 
+	margin-right: 6px;
+}
+
+#img400-notext {
+	padding: 3px; 
+	text-align: center; 
+	margin-right: 6px;
+}
+
+#pictile {
+   margin: 0 10px 10px -4px;
+   clear: both;
+   width: 100%;
+   text-align: center;
+   color: #888888;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+#pictile .photo {
+  padding: 3px;
+  vertical-align: middle;
+}
+
+
+#glider .scroller {	
+	width: 610px;
+	overflow: hidden;
+}
+
+#glider .scroller .section {	
+	width: 610px;
+	overflow: hidden;
+	float: left;
+}
+
+#glider .scroller .content {
+	width: 50000px;
+}
+
+#glider .title-box {
+	min-height: 50px;
+	height: auto !important;
+	height: 50px;
+}
+
+#glider .nav-box {
+	min-height: 35px;
+	height: auto !important;
+	height: 35px;
+	text-align: center;
+}
+
+#glider .description {
+	color: #666;
+	font-size: 10px;
+	line-height: 1.52em;
+	padding-bottom: 5px;
+}
+
+#glider .description a, #glider .features a {
+	color: #009ed0;
+	text-decoration: underline;
+}
+
+.controls ul {
+	margin-top: 10px;
+	border-top: 1px solid #e2e2e2;
+}
+
+#glider .description a:hover, #glider .features a:hover {
+	text-decoration: none;
+}
+
+.controls li {
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.controls li a {
+	color: #017C84;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 1px 2px 1px 2px;
+	display: block;
+}
+
+.controls li#control1 a.active, .controls li#control1 a:hover.active, .controls li#control2 a.active, .controls li#control2 a:hover.active, .controls li#control3 a.active, .controls li#control3 a:hover.active, .controls li#control4 a.active, .controls li#control4 a:hover.active, .controls li#control5 a.active, .controls li#control5 a:hover.active, .controls li#control6 a.active, .controls li#control6 a:hover.active, .controls li#control7 a.active, .controls li#control7 a:hover.active, .controls li#control8 a.active, .controls li#control8 a:hover.active, .controls li#control9 a.active, .controls li#control9 a:hover.active, .controls li#control10 a.active, .controls li#control10 a:hover.active, .controls li#control11 a.active, .controls li#control11 a:hover.active, .controls li#control12 a.active, .controls li#control12 a:hover.active, .controls li#control13 a.active, .controls li#control13 a:hover.active, .controls li#control14 a.active, .controls li#control14 a:hover.active, .controls li#control15 a.active, .controls li#control15 a:hover.active, .controls li#control16 a.active, .controls li#control16 a:hover.active, .controls li#control17 a.active, .controls li#control17 a:hover.active, .controls li#control18 a.active, .controls li#control18 a:hover.active, .controls li#control19 a.active, .controls li#control19 a:hover.active, .controls li#control20 a.active, .controls li#control20d a:hover.active  {
+	text-decoration: underline;
+	background-color: #FFFFCC;
+}
+
+.controls li#control1 a:hover, .controls li#control2 a:hover, .controls li#control3 a:hover, .controls li#control4 a:hover, .controls li#control5 a:hover, .controls li#control6 a:hover, .controls li#control7 a:hover, .controls li#control8 a:hover, .controls li#control9 a:hover, .controls li#control10 a:hover, .controls li#control11 a:hover, .controls li#control12 a:hover, .controls li#control13 a:hover, .controls li#control14 a:hover, .controls li#control15 a:hover, .controls li#control16 a:hover, .controls li#control17 a:hover, .controls li#control18 a:hover, .controls li#control19 a:hover, .controls li#control20 a:hover {
+	background-color: #FFFFCC;
+}
+
+#footer {
+	color: #017C84;
+	font-size: 11px;
+	min-width: 960px;
+	padding: 0px 0 0px 0px;
+	border-top: 1px solid #d5d5d5;
+	background: #017C84;
+ 
+}
+
+#footer .container {
+	text-align:  center;
+	color: white;
+      min-width: 960px;
+	padding-top: 15px;
+      padding-bottom: 0px;
+      background: #017C84;
+}
+
+#footer p {
+	line-height: 1.92em;
+}
+
+#footer a {
+	color: white;
+	text-decoration: underline;
+}
+
+#footer a:hover, #footer a.undernot {
+	text-decoration: none;
+}
+
+#footer a:hover.undernot {
+	text-decoration: underline;
+}
